@@ -2,7 +2,68 @@ body {
   color: #3d727c;
   font-family: "Montserrat";
 }
+
 .container .icon {
   color: #65aabb !important;
   font-weight: 800;
+}
+
+#profile {
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+
+#profile img {
+  height: 300px;
+  border-radius: 50%;
+  /* position: absolute; */
+  left: 700px;
+  width: 200px;
+  top: 100px;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+hr {
+  margin: 2%;
+}
+
+/* .card mb-3 {
+  display: flex;
+  justify-content: center;
+} */
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 30%;
+  border: 1px solid teal;
+  background-color: teal;
+  padding: 1%;
+}
+
+h6 {
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+p1 {
+  color: white;
+  font-size: 12px;
+}
+
+#content {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
 }
